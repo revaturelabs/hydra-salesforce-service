@@ -3,27 +3,27 @@
 # For a project mostly in C, the following would be a good set of
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
-# ~
+# *~
 # .git/info/exclude
 
-/pull_request_template.md
-/issue_template.md
-/target/
-/bin/
-/META-INF/
+**/pull_request_template.md
+**/issue_template.md
+**/target/
+**/bin/
+**/META-INF/**
 
 #Eclipse
-/.metadata
-/.project
-/.settings/
-/.classpath
-/.recommenders/
-/Servers
-/.springBeans
+**/.metadata
+**/.project
+**/.settings/
+**/.classpath
+**/.recommenders/**
+**/Servers
+**/.springBeans
 
 #IDEA
-/.idea/
-/.iml
+**/.idea/
+**/*.iml
 
 #AngularJS
 **/.tern-project
