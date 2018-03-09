@@ -20,7 +20,7 @@ public class SalesforceMessageSender {
 	
 	public List<Trainer> sendToTrainer(JsonObject msg, String queue) {
 		//rabbitMqTemplate.convertAndSend("caliber.exchange", "caliber.queue", msg);
-		return (List<Trainer>)rabbitMqTemplate.convertSendAndReceive("revature.caliber.service", queue, msg);
+		return (List<Trainer>)rabbitMqTemplate.convertSendAndReceive("revature.hydra.service", queue, msg);
 	}
 	
 	public List<Batch> sendToBatch(JsonObject msg, String queue) {
