@@ -1,4 +1,4 @@
-package com.revature.caliber.controllers;
+package com.revature.hydra.controllers;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.caliber.beans.Batch;
-import com.revature.caliber.beans.Trainee;
-import com.revature.caliber.models.SalesforceUser;
-import com.revature.caliber.services.SalesforceService;
+import com.revature.hydra.beans.Batch;
+import com.revature.hydra.beans.Trainee;
+import com.revature.hydra.models.SalesforceUser;
+import com.revature.hydra.services.SalesforceService;
 
 @RestController
 @PreAuthorize("isAuthenticated()")

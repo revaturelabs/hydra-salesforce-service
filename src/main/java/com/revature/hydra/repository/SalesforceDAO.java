@@ -1,4 +1,4 @@
-package com.revature.caliber.repository;
+package com.revature.hydra.repository;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -18,11 +18,11 @@ import org.springframework.stereotype.Repository;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.revature.caliber.beans.Batch;
-import com.revature.caliber.beans.Trainee;
-import com.revature.caliber.exceptions.ServiceNotAvailableException;
-import com.revature.caliber.salesforce.SalesforceTransformerToCaliber;
-import com.revature.caliber.models.SalesforceUser;
+import com.revature.hydra.beans.Batch;
+import com.revature.hydra.beans.Trainee;
+import com.revature.hydra.exceptions.ServiceNotAvailableException;
+import com.revature.hydra.models.SalesforceUser;
+import com.revature.hydra.salesforce.SalesforceTransformerToCaliber;
 import com.revature.salesforce.beans.SalesforceBatch;
 import com.revature.salesforce.beans.SalesforceBatchResponse;
 import com.revature.salesforce.beans.SalesforceTrainee;

@@ -1,4 +1,4 @@
-package com.revature.caliber.messaging;
+package com.revature.hydra.messaging;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.google.gson.JsonObject;
-import com.revature.caliber.beans.Batch;
-import com.revature.caliber.beans.Trainer;
+import com.revature.hydra.beans.Batch;
+import com.revature.hydra.beans.Trainer;
 
 @Service
 public class SalesforceMessageSender {

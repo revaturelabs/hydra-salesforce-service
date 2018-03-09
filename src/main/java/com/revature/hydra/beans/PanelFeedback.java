@@ -1,4 +1,4 @@
-package com.revature.caliber.beans;
+package com.revature.hydra.beans;
 
 /**
  * Notes and results for each category that the panelist

@@ -1,4 +1,4 @@
-package com.revature.caliber.services;
+package com.revature.hydra.services;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,11 +8,11 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import com.google.gson.JsonObject;
-import com.revature.caliber.beans.Batch;
-import com.revature.caliber.beans.Trainee;
-import com.revature.caliber.beans.Trainer;
-import com.revature.caliber.messaging.SalesforceMessageSender;
-import com.revature.caliber.repository.SalesforceDAO;
+import com.revature.hydra.beans.Batch;
+import com.revature.hydra.beans.Trainee;
+import com.revature.hydra.beans.Trainer;
+import com.revature.hydra.messaging.SalesforceMessageSender;
+import com.revature.hydra.repository.SalesforceDAO;
 
 @Service
 public class SalesforceService {
